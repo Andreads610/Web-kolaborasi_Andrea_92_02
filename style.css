@@ -1,0 +1,142 @@
+header{
+    width: 1280px;
+}
+/* Kode CSS navigator*/
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(255, 162, 193);
+    overflow: hidden;
+    font-size:x-large;
+    width: 1280px;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+li{
+    float: left;
+}
+
+li a, .dropbtn{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover, .dropbtn:hover{
+    background-color: rgb(246, 129, 211);
+}
+
+li.dropdown{
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: paleturquoise;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px palevioletred;
+    z-index: 1;
+    border-radius: 15px;
+}
+
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover{
+    background-color: rgb(153, 255, 147);
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.column{
+    float: left;
+    padding: 0px 10px;
+}
+
+p{
+    margin: 0px;
+    background-color: lemonchiffon;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+
+h2{
+    margin: 10px;
+    padding-left: 30px;
+}
+ 
+img{
+    width: 1280px;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+.pick{
+    color: green;
+}
+
+h1{
+    text-align: center;
+}
+
+ol{
+    margin: 0px;
+    width: fit-content;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+ol.aspek{
+    margin: 0px;
+    width: 300px;
+}
+
+ol.indi{
+    width: 640px;
+}
+
+img.s{
+    border-radius: 20px;
+}
+
+ol.bi{
+    width: 640px;
+}
+
+.aseann{
+    text-align: center;
+}
+
+img.aseann{
+    margin-right: 100px;
+    margin-left: 300px;
+}
+
+h1.kes{
+    background-color: plum;
+}
+
+h2.ks{
+    text-align: right;
+    margin: 0px;
+    padding-right: 40px;
+}
